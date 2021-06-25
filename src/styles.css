@@ -1,0 +1,128 @@
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  font-family: "Roboto Mono", monospace;
+  opacity: 0.8;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  padding: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+:root {
+  --primary-color: #db66e4;
+  --secondary-color: magenta;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  --gradient: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+
+.informational-links a {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.informational-links {
+  display: flex;
+  justify-content: center;
+}
+
+.about-info-boxes {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  font-family: "Roboto Mono", monospace;
+  color: chartreuse;
+}
+
+.info-box {
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 10px;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.homepage-link {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: chartreuse;
+}
+.about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: chartreuse;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.emailLink {
+  text-decoration: underline;
+}
+
+.navbar-logo {
+  width: 50px;
+}
+
+#rainbow,
+#rain {
+  width: 100px;
+  justify-content: center;
+  margin: auto;
+  display: block;
+}
+
+#pastel,
+#newton,
+#color-gen {
+  width: auto;
+  margin: auto;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: chartreuse;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+}
+#weather-app {
+  background-image: var(--gradient);
+  border-radius: 7px;
+}
+
+.navbar {
+  font-family: "Roboto Mono", monospace;
+}
