@@ -89,7 +89,8 @@ body {
 }
 
 #rainbow,
-#rain {
+#rain 
+ {
   width: 100px;
   justify-content: center;
   margin: auto;
@@ -99,10 +100,16 @@ body {
 #pastel,
 #newton,
 #color-gen {
+  height: 200px;
   width: auto;
   margin: auto;
 }
 
+#peep {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -113,6 +120,11 @@ body {
   font-family: 'Courier Prime', monospace;
   display: flex;
 }
+
+a.primary-link:hover {
+  color: chartreuse !important;
+}
+
 #weather-app {
   background-image: var(--gradient);
   border-radius: 7px;
