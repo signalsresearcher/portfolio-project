@@ -112,16 +112,17 @@ body {
 }
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: chartreuse;
   font-family: 'Courier Prime', monospace;
   display: flex;
+ 
 }
 
-a.primary-link:hover {
+a.primary-link:hover, a.primary-link:focus {
   color: chartreuse !important;
 }
 
