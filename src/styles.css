@@ -3,7 +3,7 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 12px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
   opacity: 0.8;
 }
 h3 {
@@ -11,11 +11,15 @@ h3 {
   justify-content: center;
   opacity: 0.8;
   padding: 15px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
 }
 
+body {
+  background:white;
+} 
+
 :root {
-  --primary-color: #db66e4;
+  --primary-color: #FF00FF;
   --secondary-color: magenta;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   --gradient: linear-gradient(to right, #a8ff78, #78ffd6);
@@ -27,7 +31,7 @@ h3 {
   margin: 30px;
   border-radius: 4px;
   padding: 20px 15px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
 }
 
 .informational-links {
@@ -41,7 +45,7 @@ h3 {
   margin: 30px;
   border-radius: 4px;
   padding: 20px 15px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
   color: chartreuse;
 }
 
@@ -49,7 +53,6 @@ h3 {
   border-radius: 4px;
   padding: 20px 15px;
   margin: 10px;
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -60,26 +63,17 @@ h3 {
 .contact-section {
   display: flex;
   justify-content: center;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
 }
 
 .homepage-link {
   display: block;
   text-align: center;
   margin: 10px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: chartreuse;
-}
-.about-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: chartreuse;
-}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -90,7 +84,8 @@ h3 {
 }
 
 .navbar-logo {
-  width: 50px;
+  width: 65px;
+  padding: 10px;
 }
 
 #rainbow,
@@ -115,7 +110,7 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: chartreuse;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
   display: flex;
 }
 #weather-app {
@@ -124,5 +119,59 @@ h3 {
 }
 
 .navbar {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Courier Prime', monospace;
+  background: #FF00FF !important; 
 }
+
+.social {
+  margin: auto;
+  width: 15%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#top, #bottom, #left, #right {
+	background: #FF00FF;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+    @media 
+
+/* hamburguer appears and border disappears */
+only screen and (max-width: 980px){
+	#top, #bottom, #left, #right { display: none; }
+}
+
+ 
+.btn-default {
+  color:#FF00FF;
+  background-color: white;
+  border-color: #FF00FF;
+  box-shadow: none!important;
+  font-family: 'Courier Prime', monospace;
+  }
+
+  .btn-default:hover, .btn-default:focus {
+    background-color: #FF00FF;
+    color:#ffff;
+    border-color: #FF00FF;
+    box-shadow: none!important;
+    font-family: 'Courier Prime', monospace;
+    }
+   
