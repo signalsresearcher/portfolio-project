@@ -5,6 +5,7 @@ h2 {
   padding: 12px;
   font-family: 'Courier Prime', monospace;
   opacity: 0.8;
+  text-align: center;
 }
 h3 {
   display: flex;
@@ -44,7 +45,7 @@ body {
   justify-content: center;
   margin: 30px;
   border-radius: 4px;
-  padding: 20px 15px;
+ 
   font-family: 'Courier Prime', monospace;
   color: chartreuse;
 }
@@ -52,15 +53,26 @@ body {
 .info-box {
   border-radius: 4px;
   padding: 20px 15px;
-  margin: 10px;
+  margin: auto;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  align-items: center;
 }
 
+
+.info-box img {
+  width: 100%;
+  display: flex;
+  height: auto; /* maintains aspect ratio*/
+  margin: auto; /*keeps image centred*/
+  text-align: center;
+  align-items: center;
+}
 .contact-section {
+  margin:auto;
   display: flex;
   justify-content: center;
   font-family: 'Courier Prime', monospace;
@@ -99,11 +111,15 @@ body {
 
 #pastel,
 #newton,
-#color-gen {
-  height: auto;
-  max-width:  100%;
+#color-gen
+#duo {
+  max-width:100%;
   margin: auto;
+  display:flex;
+  justify-content:center;
+  text-align: center;
 }
+
 
 #peep {
   height: 200px;
@@ -132,7 +148,7 @@ a.primary-link:hover, a.primary-link:focus {
 
 .navbar {
   font-family: 'Courier Prime', monospace;
-  background: #FF00FF !important; 
+  background: var(--primary-color)!important; 
 }
 
 .social {
@@ -146,7 +162,7 @@ p {
 
 
 #top, #bottom, #left, #right {
-	background: #FF00FF;
+	background: var(--primary-color);
 	position: fixed;
 	}
 	#left, #right {
@@ -165,7 +181,7 @@ p {
 
     @media 
 
-/* hamburguer appears and border disappears */
+/* hamburguer appears and border disappears for responsive */
 only screen and (max-width: 980px){
 	#top, #bottom, #left, #right { display: none; }
 }
