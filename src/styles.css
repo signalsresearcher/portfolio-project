@@ -93,6 +93,7 @@ body {
 
 .emailLink {
   text-decoration: underline;
+  display:flex;
 }
 
 .navbar-logo {
