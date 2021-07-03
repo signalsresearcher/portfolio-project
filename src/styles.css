@@ -100,25 +100,16 @@ body {
   padding: 10px;
 }
 
-#rainbow,
-#rain 
- {
-  width: 100px;
-  justify-content: center;
-  margin: auto;
-  display: block;
-}
-
-#pastel,
 #newton,
 #color-gen
-#duo {
+#duo
+#pastel {
   max-width:100%;
   margin: auto;
   display:flex;
-  justify-content:center;
-  text-align: center;
+  height: auto; 
 }
+
 
 
 #peep {
@@ -126,6 +117,7 @@ body {
   display: block;
   margin: auto;
 }
+
 .primary-link {
   border-radius: 4px;
   padding: 15px 10px;
@@ -135,16 +127,13 @@ body {
   color: chartreuse;
   font-family: 'Courier Prime', monospace;
   display: flex;
- 
+
 }
 
 a.primary-link:hover, a.primary-link:focus {
   color: chartreuse !important;
 }
 
-#weather-app {
-  border-radius: 7px;
-}
 
 .navbar {
   font-family: 'Courier Prime', monospace;
@@ -203,10 +192,9 @@ only screen and (max-width: 980px){
     font-family: 'Courier Prime', monospace;
     }
 
-    #ctas {
-      justify-content: center;
+#ctas {
+  justify-content: center;
     }
-
    
 
 .shrink img {
